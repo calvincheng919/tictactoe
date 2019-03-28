@@ -1,0 +1,49 @@
+/* * {
+  outline: 1px solid 
+} */
+
+#wrapper{   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 768px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 3px;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine";
+/*   grid-auto-flow: column; */
+  
+}
+div {
+  padding: 3px;
+}
+footer{
+  padding: 10px;
+}
+.item{
+  display: flex;
+  border: 2px green solid;
+  background-color: lightblue;
+  font-size: 2.5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px
+}
+.item_3 {
+  
+}
+
+button{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
